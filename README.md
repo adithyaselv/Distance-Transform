@@ -1,19 +1,19 @@
 # Distance-Transform
 Distance Transform computed using Meijster distance algorithm. 
 
-###Link:
+### Link:
 [http://fab.cba.mit.edu/classes/S62.12/docs/Meijster_distance.pdf](http://fab.cba.mit.edu/classes/S62.12/docs/Meijster_distance.pdf)
 
-###Dependencies:
+### Dependencies:
 * OpenCV
 
-###Compilation:
-####Mac:
+### Compilation:
+#### Mac:
 Using Package config  
 ```
 g++ dt.cpp -o dt `pkg-config --cflags --libs opencv`
 ```
-###Running instructions:
+### Running instructions:
 
 ```
  ./dt <imageName> <Method>
